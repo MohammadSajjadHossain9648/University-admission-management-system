@@ -1,0 +1,20 @@
+body
+{
+    background-color: black;
+}
+header
+{
+    height: 110px;
+    width: 1510px;
+}
+section
+{
+    padding-top:100px;
+    height: 500px;
+    width: 1510px;
+}
+footer
+{
+    height: 100px;
+    width: 1510px;
+}
