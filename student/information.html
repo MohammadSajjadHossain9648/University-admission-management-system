@@ -1,0 +1,65 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>INFORMATION</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body
+            {
+                background-color: aqua;
+            }
+            div
+            {
+                height:110px;
+                text-align: center;
+                border: 2px black solid;
+                padding: 2px;
+                margin: 10px;
+                background-color: chartreuse;
+            }
+            header
+            {
+                width:100%;
+                height: 50px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>UNIVERSITY INFORMATION & OFFICIAL WEBSITES</h1>
+        </header>
+        <section>
+            <div>
+                <h3><a href="https://www.du.ac.bd/" target="_blank">DHAKA UNIVERSITY</a></h3>
+            </div>
+            <div>
+                <h3><a href="https://www.buet.ac.bd/web/" target="_blank">BUET UNIVERSITY</a></h3>
+            </div>
+            <div>
+                <h3><a href="http://cu.ac.bd/" target="_blank">CHITTAGONG UNIVERSITY</a></h3>
+            </div>
+            <div>
+                <h3><a href="https://www.cou.ac.bd/" target="_blank">COMILLA UNIVERSITY</a></h3>
+            </div>
+            <button onclick="go()">Back</button>
+        </section>
+       
+        <footer>
+            <p style="color:black;text-align: center;">
+                For any problem,please contract anytime<br><br>
+				Email: Onlineadmissionboard@gmail.com <br><br>
+				Mobile:+8801713456789
+			</p>
+        </footer>
+        <script type="text/javascript">
+            function go(){
+                window.location="studentpageindex.html";
+            }
+        </script>
+    </body>
+</html>
