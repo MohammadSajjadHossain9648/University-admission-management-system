@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> STUDENT REGISTRATION</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        
+        <style>
+            container
+            {
+                position: relative;
+            }
+            form
+            {
+                position: absolute;
+                left: 500px;
+            }
+            h3
+            {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            td,input
+            {
+                text-align: center;
+                text-transform: uppercase;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+             <form action="" method="post">
+                 <h3>Student Registration</h3>
+                <div class="form-group">
+                    <label for="name">Student Name</label><br>
+                    <input type="text" name="student_name" id="name" size="50">
+                </div>
+                 <div class="form-group">
+                    <label for="fname">Father Name</label><br>
+                    <input type="text" name="father_name" id="fname" size="50">
+                </div>
+                 <div class="form-group">
+                    <label for="mname">Mother Name</label><br>
+                    <input type="text" name="mother_name" id="mname" size="50">
+                </div>
+                 <div class="form-group">
+                    <label for="roll"></label>Roll No<br>
+                    <input type="text" name="hsc_roll" id="roll" size="50" maxlength="10">
+                </div>
+                 <div class="form-group">
+                    <label for="reg">Registration No</label><br>
+                    <input type="text" name="reg_no" id="reg" size="50" maxlength="20">
+                </div>
+                 <div class="form-group">
+                    <label for="gr">Group</label><br>
+                    <input type="text" name="group" id="gr" size="50" maxlength="20">
+                </div>
+                 <div class="form-group">
+                    <label for="ses">Session</label><br>
+                    <input type="text" name="session" id="ses" size="50" maxlength="9">
+                </div>
+                <div class="form-group">
+                    <label for="institution">Institution Name</label><br>
+                    <input type="text" name="institution_name" id="institution" size="50">
+                </div>
+                 <div class="form-group">
+                    <label for="board">Name of Board</label><br>
+                    <input type="text" name="hsc_board" id="board" size="50" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label for="upa">Upazilla</label><br>
+                    <input type="text" name="upazilla" id="upa" size="50" maxlength="20">
+                </div>
+                <div class="form-group">
+                    <label for="dis">District</label><br>
+                    <input type="text" name="district" id="dis" size="50" maxlength="20">
+                </div>
+                <p><b>Information of SSC:</b></p>
+                <div class="form-group">
+                    <label for="sscboard">Name of Board</label><br>
+                    <input type="text" name="ssc_board" id="sscboard" size="50" maxlength="20">
+                </div>
+                 <div class="form-group">
+                    <label for="passing">Passing Year</label><br>
+                    <input type="text" name="passing_year" id="passing" size="50" maxlength="4">
+                </div>
+                 <div class="form-group">
+                    <label for="sscroll">Roll No</label><br>
+                    <input type="text" name="ssc_roll" id="sscroll" size="50" maxlength="10">
+                </div>
+                <p><b>Information of Student Grade:</b></p>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>Sub. Code</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="code1" maxlength="3" id="Code"></td>
+                        <td><input type="text" name="grade1" maxlength="2" id="Grade"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="code2" maxlength="3" id="Code"></td>
+                        <td><input type="text" name="grade2" maxlength="2" id="Grade"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="code3" maxlength="3" id="Code"></td>
+                        <td><input type="text" name="grade3" maxlength="2" id="Grade"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="code4" maxlength="3" id="Code"></td>
+                        <td><input type="text" name="grade4" maxlength="2" id="Grade"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="code5" maxlength="3" id="Code"></td>
+                        <td><input type="text" name="grade5" maxlength="2" id="Grade"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="code6" maxlength="3" id="Code"></td>
+                        <td><input type="text" name="grade6" maxlength="2" id="Grade"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" name="code7" maxlength="3" id="Code"></td>
+                        <td><input type="text" name="grade7" maxlength="2" id="Grade"></td>
+                    </tr>
+                </table>
+                <div class="form-group">
+                    <label for="op">Optional(code)</label><br>
+                    <input type="text" name="optional" id="op" size="50" maxlength="3">
+                </div> 
+                <div class="form-group">
+                    <label for="cgpa">CGPA with 4<sup>th</sup> subject:</label>
+                    <input type="text" name="cgpa" id="cgpa" size="4" maxlength="4">
+                </div>
+                 <div class="form-group">
+                    <label for="cgpa02">CGPA without 4<sup>th</sup> subject:</label>
+                    <input type="text" name="cgpa2" id="cgpa02" size="4" maxlength="4">
+                </div>
+                <p><b>Personal Information of Student:</b></p>
+                <div class="form-group">
+                    <label for="password">Student Password</label><br>
+                    <input type="password" name="password" id="password" size="50">
+                </div>
+                <div class="form-group">
+                    <label for="address">Student Address</label><br>
+                    <input type="text" name="address" id="address" size="50">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Student Contract No</label><br>
+                    <input type="text" name="phone" id="phone" size="50" maxlength="11">
+                </div>
+                <button type="button" class="float-right">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
